@@ -1,4 +1,4 @@
-{% set version = '0.4.1' %}
+{% set version = "0.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/padr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/padr/padr_{{ version }}.tar.gz
-  sha256: fed9e7722d9585d5a1d92b9224de9184b9f30c42a542e8056d0d86f1baa2ac5b
+  sha256: 3da606ced008576f34e7c520dcec556958aeedd9d6bdc6a0372316f53418980e
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
