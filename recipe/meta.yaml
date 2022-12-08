@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -33,14 +33,14 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-dplyr >=0.6.0
+    - r-dplyr >=1.0.0
     - r-lubridate
     - r-rlang
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-rcpp
-    - r-dplyr >=0.6.0
+    - r-dplyr >=1.0.0
     - r-lubridate
     - r-rlang
 
