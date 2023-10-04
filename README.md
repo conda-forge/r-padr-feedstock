@@ -3,6 +3,19 @@ About r-padr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-padr-feedstock/blob/main/LICENSE.txt)
 
+
+About r-padr
+------------
+
+Home: https://github.com/EdwinTh/padr
+
+Package license: MIT
+
+Summary: Transforms datetime data into a format ready for analysis. It offers two core functionalities; aggregating data to a higher level interval (thicken) and imputing records where observations were absent (pad). 
+
+About r-padr
+------------
+
 Home: https://github.com/EdwinTh/padr
 
 Package license: MIT
