@@ -3,6 +3,19 @@ About r-padr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-padr-feedstock/blob/main/LICENSE.txt)
 
+
+About r-padr
+------------
+
+Home: https://github.com/EdwinTh/padr
+
+Package license: MIT
+
+Summary: Transforms datetime data into a format ready for analysis. It offers two core functionalities; aggregating data to a higher level interval (thicken) and imputing records where observations were absent (pad). 
+
+About r-padr
+------------
+
 Home: https://github.com/EdwinTh/padr
 
 Package license: MIT
@@ -52,6 +65,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2460&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-padr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2460&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-padr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2460&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-padr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
