@@ -1,4 +1,4 @@
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/padr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/padr/padr_{{ version }}.tar.gz
-  sha256: 4637b26226fca7835b417764a5ef950dba8c539ed746b5b04f337fce3823204b
+  sha256: 7f6c516607908d8c0252e7f3f2a2fc4e69d2e0da8e1ad5122ba5a46047780cb8
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
